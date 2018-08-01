@@ -1,13 +1,15 @@
-# Aura Dev Chain
+# AuRa Dev Chain
 
 ## Reason
-Sometimes it's useful to run your contract tests not only on a ganache/testrpc chain, but on a production implementation. But Truffle doesn't work well with instant sealing mode provided by `parity --chain dev` config.
+Sometimes it's useful to run your contract tests not only on a ganache/testrpc chain, but on a production implementation such as `Parity` or `Geth` too, since Truffle doesn't work well with instant sealing mode provided by `parity --chain dev` config.
 
-This is a private chain config with Authority Round consensus and only one sealing node.
+This is a private chain config with Authority Round consensus and a single sealing node.
 
 ## How to run it
 
-Clone this repo and run
+1. Install `Parity` https://wiki.parity.io/Setup
+
+2. Clone this repo and run
 
 ```sh
 make
