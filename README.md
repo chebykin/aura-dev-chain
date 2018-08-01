@@ -16,6 +16,10 @@ make
 ```
 
 ## Credentials
+```
+The private keys are exposed to anyone. Use them only for testing purposes.
+```
+
 ### Validator (Miner)
 
 * Private: 319af6dec0d3c80fbb9963e6a7f42ed3f2758583e580d2ac3dbfb6abc4256b4a
