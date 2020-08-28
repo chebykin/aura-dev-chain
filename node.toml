@@ -9,11 +9,13 @@ disable = false
 apis = ["web3", "eth", "parity", "personal", "net", "traces", "rpc"]
 interface = "0.0.0.0"
 cors=["all"]
+port=8545
 
 [websockets]
 disable = false
 apis = ["web3", "eth", "parity", "personal", "net", "traces", "rpc", "pubsub"]
 interface = "0.0.0.0"
+port=8546
 
 [ipc]
 disable = false
@@ -35,7 +37,7 @@ engine_signer = "0xa5aa6d3dce7e88059adedee8c32b8f80e54cd404"
 force_sealing = true
 reseal_on_txs = "none"
 min_gas_price = 1000000000
-gas_floor_target = "7700000"
+gas_floor_target = "12300000"
 
 [footprint]
 fat_db = "on"
